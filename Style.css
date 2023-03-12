@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    font-size: 68.68%;
+}
+
+/* ========== Strat Section Navbar ===============*/
+.navbar-brand{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nav-link{
+    color: #7a7a7a;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    transition: 0.5s ease-in-out;
+    position: relative;
+}
+.nav-link:hover{
+    color: #fba70b;
+}
+.active{
+    color: #fba70b !important;
+
+}
+/* ========= End Section Navbar =============*/
+
+
+
+/* ========= End Section Home =============*/
+.box-content-Home h1{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.box-content-Home h1 span{
+    color: #fba70b;
+}
+.box-content-Home p{
+    font-size: 1rem;
+    color: #7a7a7a;
+}
+.btn-home{
+    background-color: #fba70b;
+    color: #fff;
+    border: 1px solid #fba70b;
+    border-radius: 25px;
+    transition: all 0.5 ease-in-out;
+    font-size: 1rem;
+    margin: 1rem;
+}
+.btn-home:hover{
+    background-color: #F1556A;
+    border: 1px solid #F1556A;
+}
+.box-img-Home img{
+    max-width: 100%;
+    width: 100%;
+}
+.box-col{
+    border: 1px solid #fff;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 1rem;
+    height: 450px;
+}
+.box-content-icon img{
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.box-content{
+    margin-top: 5rem;
+}
+.box-content p{
+    color: #7a7a7a;
+    font-size: 1rem;
+}
+/* ========= End Section Home =============*/
+
+/* ========= End Section About =============*/
+
+.box-img-about img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.box-About{
+    display: flex;
+    justify-content: space-between;
+}
+.box-con{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+/* ========= End Section About =============*/
+
+/* ========= End Section Testimonials =============*/
+.box-testimonials-silder{
+    background-color: rgba(244,129,63,1) ;
+    border: 1px solid rgba(244,129,63,1) ;
+    border-radius: 10px;
+    height: 300px;
+    margin: 1rem;
+}
+.icons-Star i{
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.box-img-testimonilas img{
+  max-width: 100%;
+  margin-top: 1rem;
+    
+}
+.box-testimonials-silder h5 , p{
+    color: #fff;
+}
+/* ========= End Section Testimonials =============*/
+
+/* ========= End Section contact =============*/
+.Contact{
+    background: url(./images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    max-width: 100%;
+}
+.from-input{
+    margin-top: 5rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.box-content-contact{
+    margin: 5.5rem;
+}
+.box-content-contact h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.box-content-contact h1 span{
+    color: #fba70b;
+}
+.icon-footer i{
+    color: #fff;
+    font-size: 1.2rem;
+   border: 1px solid #fff;
+   border-radius: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    transition: 0.5s ease-in-out;
+}
+.icon-footer i:hover{
+    background-color: #fba70b;
+}
+/* ========= End Section contact =============*/
+
+
+/* =======================*/
+
+@media(max-width:991px){
+
+    .navbar-nav{
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0.5px;
+        background-color: #000;
+        left: 0;
+        bottom: -.2rem;
+        color: #000;
+    }
+}
